@@ -1,0 +1,28 @@
+{
+  "notices": [
+    {
+      "publication-number": "700001-2026",
+      "notice-title": {
+        "eng": "Norway – Environmental monitoring services – Coastal water quality programme",
+        "nor": "Norge – Miljøovervåking"
+      },
+      "buyer-country": ["NOR"],
+      "buyer-name": {"eng": ["Example Environment Agency"]},
+      "publication-date": "2026-11-09+01:00",
+      "classification-cpv": ["90711500", "90700000"],
+      "estimated-value-lot": ["450000.00", "120000.00"],
+      "links": {"xml": {"MUL": "https://ted.europa.eu/en/notice/700001-2026/xml"}}
+    },
+    {
+      "publication-number": "700002-2026",
+      "notice-title": {"eng": "Croatia – Medical equipments – Hospital consumables"},
+      "buyer-country": ["HRV"],
+      "buyer-name": {"hrv": ["Example Hospital"]},
+      "publication-date": "2026-11-09+01:00",
+      "classification-cpv": ["33141000"],
+      "estimated-value-lot": ["67930.00"],
+      "links": {"xml": {"MUL": "https://ted.europa.eu/en/notice/700002-2026/xml"}}
+    }
+  ],
+  "totalNoticeCount": 2
+}

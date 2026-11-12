@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Example funding feed</title>
+    <item>
+      <title>Call for Proposals: Coastal Resilience in Small Island States</title>
+      <link>https://example.org/calls/coastal-resilience</link>
+      <pubDate>Mon, 10 Nov 2026 09:00:00 +0000</pubDate>
+      <category><![CDATA[Environment]]></category>
+      <category><![CDATA[Climate]]></category>
+      <guid isPermaLink="false">https://example.org/?p=101</guid>
+      <description><![CDATA[<p>Grants of up to USD 500,000 for climate adaptation projects. Deadline: 15 December 2026.</p>]]></description>
+    </item>
+    <item>
+      <title>Equipment Supply Framework for Regional Hospitals</title>
+      <link>https://example.org/calls/hospital-equipment</link>
+      <pubDate>Tue, 11 Nov 2026 08:30:00 +0000</pubDate>
+      <category><![CDATA[Health]]></category>
+      <guid isPermaLink="false">https://example.org/?p=102</guid>
+      <description><![CDATA[Procurement of medical equipment, estimated value EUR 1.2 million.]]></description>
+    </item>
+    <item>
+      <title>Call for Proposals: Coastal Resilience in Small Island States</title>
+      <link>https://aggregator.example.net/coastal-resilience-sids</link>
+      <pubDate>Wed, 12 Nov 2026 07:00:00 +0000</pubDate>
+      <description><![CDATA[The same call, picked up by an aggregator.]]></description>
+    </item>
+  </channel>
+</rss>

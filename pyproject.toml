@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "funding-radar"
+version = "1.0.0"
+description = "Poll funding sources, screen them against a profile, write a de-duplicated digest. No dependencies, no model in the loop."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Sadok Ayari"}]
+keywords = ["funding", "grants", "opportunities", "monitoring", "digest"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Office/Business",
+]
+
+[project.urls]
+Homepage = "https://github.com/sadok-ayari/funding-radar"
+
+[project.scripts]
+funding-radar = "radar.cli:main"
+
+[tool.setuptools]
+packages = ["radar"]

@@ -1,0 +1,40 @@
+{
+  "title": "Funding radar",
+  "rules": {
+    "countries": [],
+    "themes": [
+      "climate",
+      "resilience",
+      "adaptation",
+      "biodiversity",
+      "nature-based",
+      "renewable",
+      "energy",
+      "water",
+      "green growth",
+      "carbon",
+      "sustainable",
+      "environment"
+    ],
+    "exclude_keywords": ["military", "defence", "defense", "weapons"],
+    "min_amount": 50000,
+    "max_amount": 10000000,
+    "deadline_window_days": 60,
+    "urgent_days": 14
+  },
+  "weights": {
+    "theme": 40,
+    "tier1": 15,
+    "tier2": 10,
+    "tier3": 5,
+    "value_in_band": 20,
+    "value_unknown": 5,
+    "deadline_in_window": 25,
+    "deadline_far": 5,
+    "deadline_unknown": 5
+  },
+  "thresholds": {
+    "pursue": 60,
+    "watch": 40
+  }
+}

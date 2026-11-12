@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "name": "fundsforngos",
+      "type": "rss",
+      "url": "https://www2.fundsforngos.org/feed/",
+      "tier": 2,
+      "limit": 40,
+      "enabled": true
+    },
+    {
+      "name": "ted-eu",
+      "type": "ted",
+      "url": "https://api.ted.europa.eu/v3/notices/search",
+      "query": "publication-date>=today(-14) AND notice-type=can-standard",
+      "cpv_prefixes": ["907", "7131", "730", "752", "805"],
+      "tier": 3,
+      "limit": 60,
+      "enabled": true
+    },
+    {
+      "name": "example-html-list",
+      "type": "html_list",
+      "url": "https://example.org/calls",
+      "link_pattern": "<a[^>]+href=\"(?P<href>/calls/[^\"]+)\"[^>]*>(?P<text>[^<]{10,200})</a>",
+      "tier": 1,
+      "limit": 30,
+      "enabled": false
+    }
+  ]
+}
